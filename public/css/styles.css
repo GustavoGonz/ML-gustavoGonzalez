@@ -1,0 +1,167 @@
+
+/* Home */
+header {
+    background-color: #EAC926;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+
+}
+#logo {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Hace que la imagen sea un bloque para poder aplicar márgenes y alineaciones */
+}
+
+ /* Estilos para el formulario de búsqueda */
+ form {
+    display: inline-block;
+    position: relative; /* Para posicionar correctamente el botón */
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0; /* Posiciona el botón a la derecha del contenedor */
+    top: 0; /* Alinea verticalmente con el campo de entrada */
+    height: 100%; /* Ajusta la altura al campo de entrada */
+    padding: 0 10px; /* Ajusta el padding para el ícono */
+}
+.cuotasTarjeta {
+    width: 100%;
+    color: #03264c;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+
+
+body {
+    font-family: "Roboto", sans-serif ;
+    font-size: 12;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+.burger-menu {
+    font-size: 2em;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+/* Registro */
+.register {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="date"],
+  .register input[type="password"],
+  .register input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register input[type="radio"],
+  .register input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .register div {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 1px whitesmoke;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register button:hover {
+    background-color: var(--dark-blue);
+  }
+  
+  .register button[type="reset"]:hover {
+    background-color: var(--gray);
+  }
+  
+  @media screen and (max-width: 420px) {
+    .burger-menu {
+      display: inline-block;
+    }
+  }
+  @media screen and (min-width: 361px) {
+    .product {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav {
+      display: block;
+    }
+    .burger-menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .product {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav {
+      display: block;
+    }
+    .burger-menu {
+      display: none;
+    }
+  }
