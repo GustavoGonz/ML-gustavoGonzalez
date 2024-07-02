@@ -105,6 +105,10 @@ footer {
   text-decoration: none;
   color: black;
 }
+main{
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* Registro */
 .register {
