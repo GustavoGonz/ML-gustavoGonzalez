@@ -75,6 +75,25 @@ footer {
     height: auto;
     margin-bottom: 10px;
   }
+/*Barra de Navegación*/
+.header-nav{
+  display: none;
+}
+
+.header-nav ul{
+  display: flex;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0px;
+}
+.header-nav ul li{
+  margin: 0px 10px;
+}
+.header-nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
 /* Registro */
 .register {
     max-width: 600px;
