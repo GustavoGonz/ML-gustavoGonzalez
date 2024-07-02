@@ -1,15 +1,17 @@
 
 /* Home */
 header {
-    background-color: #EAC926;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 100%;
+  background-color: #EAC926;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 
 }
+
 #logo {
     width: 200px; /* Ancho deseado */
     height: auto; /* Altura automática para mantener la proporción */
@@ -47,7 +49,6 @@ button[type="submit"] {
     font-size: 12px;
     margin-bottom: 10px;
   }
-
 
 
 body {
