@@ -53,6 +53,8 @@ button[type="submit"] {
 body {
     font-family: "Roboto", sans-serif ;
     font-size: 12;
+    margin: 0px;
+    background-color: #ebebeb;
 }
 footer {
     background-color: #f8f8f8;
@@ -165,3 +167,54 @@ footer {
       display: none;
     }
   }
+  /*Footer*/
+footer {
+  padding: 30px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.f-section {
+  text-align: center;
+  color: #666;
+  margin: 50px 0px;
+  width: 100%;
+}
+
+.f-section i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: var(--azul);
+}
+
+.f-section h2 {
+  margin: 0px;
+}
+
+.f-section p {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.copyright-sec p {
+  font-size: 10px;
+  margin: 0px;
+}
+
+/* Estilos responsive */
+@media (max-width: 600px) {
+  .f_section {
+    margin: 20px 0px;
+  }
+
+  .f-section i {
+    font-size: 1.5em;
+  }
+
+  .footer_sec p {
+    font-size: 10px;
+  }
+}
