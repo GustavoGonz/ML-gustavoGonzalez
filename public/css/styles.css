@@ -1,4 +1,25 @@
 
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste:#1259c3;
+  --grisOscuro: #666;
+  --grisClaro: #ebebeb;
+  --verde: #39b54a;
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Roboto", sans-serif ;
+font-size: 12;
+margin: 0px;
+background-color: var(--grisClaro);
+}
+
 /* Home */
 header {
   background-color: #EAC926;
@@ -11,52 +32,42 @@ header {
   align-items: center;
 
 }
-
 #logo {
-    width: 200px; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la proporción */
-    display: block; /* Hace que la imagen sea un bloque para poder aplicar márgenes y alineaciones */
+  width: 50%; /* Ancho deseado */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: flex; /* Hace que la imagen sea un bloque para poder aplicar márgenes y alineaciones */
 }
 
- /* Estilos para el formulario de búsqueda */
- form {
-    display: inline-block;
-    position: relative; /* Para posicionar correctamente el botón */
+/* Estilos para el formulario de búsqueda */
+form {
+  display: flex;
+  position: relative; /* Para posicionar correctamente el botón */
 }
 
 input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 5px;
-    width: 200px;
-    box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 button[type="submit"] {
-    border: none;
-    background: none;
-    cursor: pointer;
-    position: absolute;
-    right: 0; /* Posiciona el botón a la derecha del contenedor */
-    top: 0; /* Alinea verticalmente con el campo de entrada */
-    height: 100%; /* Ajusta la altura al campo de entrada */
-    padding: 0 10px; /* Ajusta el padding para el ícono */
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  right: 50%; /* Posiciona el botón a la derecha del contenedor */
+  top: 0; /* Alinea verticalmente con el campo de entrada */
+  height: 100%; /* Ajusta la altura al campo de entrada */
+  padding: 5px, 10px; /* Ajusta el padding para el ícono */
 }
 .cuotasTarjeta {
-    width: 100%;
-    color: #03264c;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-
-
-body {
-    font-family: "Roboto", sans-serif ;
-    font-size: 12;
-    margin: 0px;
-    background-color: #ebebeb;
+  color: var(--azul);
+  font-size: 10px;
 }
+
 footer {
     background-color: #f8f8f8;
     padding: 20px;
